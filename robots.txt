@@ -1,0 +1,4 @@
+Sitemap: https://ajith05.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: ajith05.github.io
