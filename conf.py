@@ -1269,7 +1269,7 @@ FEED_TEASERS = True
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+BODY_END = "<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"fe35efd0f03a46b885c1ff456299fcdd\"}'></script><!-- End Cloudflare Web Analytics -->"
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
