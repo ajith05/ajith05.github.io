@@ -258,7 +258,7 @@ PAGES = (
 # (e.g. 'Europe/Zurich')
 # Also, if you want to use a different time zone in some of your posts,
 # you can use the ISO 8601/RFC 3339 format (ex. 2012-03-30T23:00:00+02:00)
-TIMEZONE = "Asia/Calcutta"
+TIMEZONE = "America/New_York"
 
 # If you want to use ISO 8601 (also valid RFC 3339) throughout Nikola
 # (especially in new_post), set this to True.
@@ -1265,11 +1265,11 @@ FEED_TEASERS = True
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = '\n<meta name="google-site-verification" content="YIvyfpKx-M1zSZHTpI70MEHKLgVXGV6_1EUBADBR1u0" />\n'
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-BODY_END = "<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"fe35efd0f03a46b885c1ff456299fcdd\"}'></script><!-- End Cloudflare Web Analytics -->"
+BODY_END = "\n<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"fe35efd0f03a46b885c1ff456299fcdd\"}'></script><!-- End Cloudflare Web Analytics -->\n"
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
