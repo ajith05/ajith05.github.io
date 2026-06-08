@@ -20,10 +20,10 @@ BLOG_AUTHOR = "Ajith Kanumuri"  # (translatable)
 BLOG_TITLE = "Ajith Kanumuri"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://ajithk.me/"
+SITE_URL = "https://ajithkanumuri.me/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://ajithk.me/"
+# BASE_URL = "https://ajithkanumuri.me/"
 # BLOG_EMAIL = ""
 BLOG_AUTHOR_GITHUB = "https://github.com/ajith05"
 BLOG_DESCRIPTION = "This is Ajith's personal website"  # (translatable)
