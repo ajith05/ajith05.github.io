@@ -1,4 +1,4 @@
-Sitemap: https://ajithk.me/sitemapindex.xml
+Sitemap: https://ajithkanumuri.me/sitemapindex.xml
 
 User-Agent: *
-Host: ajithk.me
+Host: ajithkanumuri.me
