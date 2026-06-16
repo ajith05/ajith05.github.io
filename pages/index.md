@@ -9,19 +9,27 @@
 .. type: text
 -->
 
-Hello there, (*cue the Obi Wan Kenobi memes*😉) I am Ajith.
+I'm Ajith — a data scientist and ML engineer with a background in applied AI, reinforcement learning, and backend engineering.
 
-I am a data scientist, a machine learning engineer, and a software engineer. My interests are in Artificial Intelligence (AI), Machine Learning (ML), Python, and Backend Engineering.
+I'm actively seeking full-time roles in **AI/ML engineering** or **data science**. If you're hiring or just want to connect, reach out on [LinkedIn](https://www.linkedin.com/in/ajith05).
 
-In August 2024, I joined [Master of Computer Science (MCS)](https://csc.ncsu.edu/academics/graduate/masters/master-of-computer-science/) program at [North Carolina State University (NCSU)](https://www.ncsu.edu), Raleigh, NC, USA.
+---
 
-Before that, I worked at [Elastiq](https://www.elastiq.ai) as a software engineer. Elastiq is an early-stage B2B AI startup focusing on both generative AI and applied AI solutions.
+**Skills:** Python, Machine Learning, Reinforcement Learning, Deep Learning, Generative AI, SQL, Backend Engineering
 
-Before joining Elastiq, I was a data scientist at [Mavenir](https://www.mavenir.com), where I worked extensively on developing [Reinforcement Learning (RL)](https://en.wikipedia.org/wiki/Reinforcement_learning) applications for 5G and 4G cellular networks. Mavenir is a telecommunications software vendor.
+---
 
-Prior to kickstarting my career at Mavenir, I studied [PG-DAI (Post Graduate Diploma in Artificial Intelligence)](https://www.cdac.in/index.aspx?id=DAC&courseid=30) at [CDAC, Pune](https://www.cdac.in/index.aspx?id=PN). Even before that, I did B.Tech (Bachelor of Technology) in CSE (Computer Science and Engineering) at [VIT (Vellore Institute of Technology), Vellore](https://vit.ac.in/).
+**Experience**
 
-Thanks for visiting my personal website. Other than this website, you can see my online presence at the below links:
+- **Software Engineer** at [Elastiq](https://www.elastiq.ai) — Built generative AI and applied AI solutions at an early-stage B2B startup.
+- **Data Scientist** at [Mavenir](https://www.mavenir.com) — Developed [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) systems for 5G and 4G cellular network optimization.
 
-- [LinkedIn](https://www.linkedin.com/in/ajith05)
-- [GitHub](https://github.com/ajith05)
+**Education**
+
+- **M.S. Computer Science (MCS)** — [North Carolina State University](https://www.ncsu.edu), Raleigh, NC *(2024 – 2026)*
+- **PG-DAI** — [CDAC, Pune](https://www.cdac.in/index.aspx?id=PN)
+- **B.Tech, Computer Science** — [VIT, Vellore](https://vit.ac.in/)
+
+---
+
+Browse my [blog posts](/blog) or check out my [GitHub](https://github.com/ajith05).
