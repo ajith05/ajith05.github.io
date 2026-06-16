@@ -143,11 +143,9 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.html', 'Home', 'fa fa-home'),
-        ('/blog/', 'Blog', 'fa fa-pencil'),
-        ('/categories/', 'Tags', 'fa fa-tags'),
-        ('https://github.com/ajith05', 'GitHub', 'fab fa-github'),
-    )
+        ("/", "Home"),
+        ("/blog/", "Blog")
+    ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -158,7 +156,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "zen"
+THEME = "bootblog4"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -172,24 +170,24 @@ THEME_COLOR = '#5670d4'
 # bootstrap4 supports: navbar_light (defaults to False)
 #                      navbar_custom_bg (defaults to '')
 
-# Config for bootblog4 (not used by zen theme):
-# THEME_CONFIG = {
-#     DEFAULT_LANG: {
-#         # Show the latest featured post in a large box, with the previewimage as its background.
-#         'featured_large': False,
-#         # Show the first (remaining) two featured posts in small boxes.
-#         'featured_small': False,
-#         # Show featured posts on mobile.
-#         'featured_on_mobile': True,
-#         # Show image in `featured_large` on mobile.
-#         # `featured_small` displays them only on desktop.
-#         'featured_large_image_on_mobile': True,
-#         # Strip HTML from featured post text.
-#         'featured_strip_html': False,
-#         # Contents of the sidebar, If empty, the sidebar is not displayed.
-#         'sidebar': ''
-#     }
-# }
+# Config for bootblog4:
+THEME_CONFIG = {
+    DEFAULT_LANG: {
+        # Show the latest featured post in a large box, with the previewimage as its background.
+        'featured_large': False,
+        # Show the first (remaining) two featured posts in small boxes.
+        'featured_small': False,
+        # Show featured posts on mobile.
+        'featured_on_mobile': True,
+        # Show image in `featured_large` on mobile.
+        # `featured_small` displays them only on desktop.
+        'featured_large_image_on_mobile': True,
+        # Strip HTML from featured post text.
+        'featured_strip_html': False,
+        # Contents of the sidebar, If empty, the sidebar is not displayed.
+        'sidebar': ''
+    }
+}
 # Config for bootstrap4:
 # THEME_CONFIG = {
 #     DEFAULT_LANG: {
