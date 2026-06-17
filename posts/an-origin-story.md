@@ -5,7 +5,7 @@
 .. tags: origin-story,story,storytelling,storywriting,deep-learning,AI/ML,AI,ML,DL,Python
 .. category: 
 .. link: 
-.. description: 
+.. description: How a late-night phone call from my mom led me to discover deep learning and set me on a path into AI/ML — the origin story of a data scientist.
 .. type: text
 -->
 
