@@ -26,7 +26,7 @@ SITE_URL = "https://ajithkanumuri.me/"
 # BASE_URL = "https://ajithkanumuri.me/"
 # BLOG_EMAIL = ""
 BLOG_AUTHOR_GITHUB = "https://github.com/ajith05"
-BLOG_DESCRIPTION = "This is Ajith's personal website"  # (translatable)
+BLOG_DESCRIPTION = "Ajith Kanumuri: data scientist and ML engineer with expertise in applied AI, reinforcement learning, and generative AI. Sharing thoughts on AI/ML, engineering, and more."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -1265,7 +1265,29 @@ FEED_TEASERS = True
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = '\n<meta name="google-site-verification" content="YIvyfpKx-M1zSZHTpI70MEHKLgVXGV6_1EUBADBR1u0" />\n'
+EXTRA_HEAD_DATA = '''
+\n<meta name="google-site-verification" content="YIvyfpKx-M1zSZHTpI70MEHKLgVXGV6_1EUBADBR1u0" />\n
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ajith Kanumuri",
+  "url": "https://ajithkanumuri.me",
+  "jobTitle": "Data Scientist & ML Engineer",
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "North Carolina State University", "sameAs": "https://www.ncsu.edu/"},
+    {"@type": "CollegeOrUniversity", "name": "CDAC Pune", "sameAs": "https://www.cdac.in/index.aspx?id=PN"},
+    {"@type": "CollegeOrUniversity", "name": "VIT Vellore", "sameAs": "https://vit.ac.in/"}
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/ajith05",
+    "https://github.com/ajith05"
+  ],
+  "knowsAbout": ["Machine Learning", "Reinforcement Learning", "Deep Learning", "Generative AI", "Python", "Data Science"],
+  "gender": "male"
+}
+</script>
+'''
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
@@ -1336,13 +1358,13 @@ BODY_END = "\n<!-- Cloudflare Web Analytics --><script defer src='https://static
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
-# TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
-#                                   # see https://dev.twitter.com/cards/types
-#     # 'site': '@website',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
-# }
+TWITTER_CARD = {
+    'use_twitter_cards': True,  # enable Twitter Cards
+    'card': 'summary_large_image',          # Card type, you can also use 'summary_large_image',
+                                # see https://dev.twitter.com/cards/types
+    # 'site': '@website',       # twitter nick for the website
+    # 'creator': '@username',   # Username for the content creator / author.
+}
 
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
 # environment but is not recommended for HTTP/2.0 when caching is used.
