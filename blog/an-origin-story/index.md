@@ -5,8 +5,9 @@
 .. tags: origin-story,story,storytelling,storywriting,deep-learning,AI/ML,AI,ML,DL,Python
 .. category: 
 .. link: 
-.. description: 
+.. description: How a late-night phone call from my mom led me to discover deep learning and set me on a path into AI/ML — the origin story of a data scientist.
 .. type: text
+.. previewimage: /og/an-origin-story.png
 -->
 
 It was a chilly evening in January of 2019. I just had dinner in the hostel mess and I am returning to my room. On the way, I received the customary daily phone call from my mom. As usual, she sounds worried about my behavior and career and I try to avoid the conversation.<!-- TEASER_END -->

@@ -1,12 +1,13 @@
 <!--
-.. title: Home
+.. title: Data Scientist & ML Engineer
 .. hidetitle: true
 .. slug: index
 .. tags: 
 .. category: 
 .. link: 
-.. description: 
+.. description: Ajith Kanumuri — data scientist and ML engineer specializing in applied AI, reinforcement learning, and generative AI. Actively seeking full-time AI/ML roles.
 .. type: text
+.. previewimage: /og/index.png
 -->
 
 I'm Ajith — a data scientist and ML engineer with a background in applied AI, reinforcement learning, and backend engineering.
