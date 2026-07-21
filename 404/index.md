@@ -1,0 +1,15 @@
+<!--
+.. title: Error 404 - Not Found
+.. slug: 404
+.. date: 2026-07-21 14:15:08-04:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. previewimage: /og/404.png
+-->
+
+The requested page was not found on this server. You may have mistyped the address or the page may have been moved.
+
+Go to [home page](/).
