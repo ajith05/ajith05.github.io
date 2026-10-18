@@ -1,0 +1,11 @@
+# Ajith Kanumuri
+
+> Ajith Kanumuri: data scientist and ML engineer with expertise in applied AI, reinforcement learning, and generative AI. Sharing thoughts on AI/ML, engineering, and more.
+
+## Pages
+
+- [Data Scientist & ML Engineer](https://ajithkanumuri.me/index.md): Ajith Kanumuri — data scientist and ML engineer specializing in applied AI, reinforcement learning, and generative AI. Actively seeking full-time AI/ML roles.
+
+## Blog posts
+
+- [An Origin Story](https://ajithkanumuri.me/blog/an-origin-story/index.md): How a late-night phone call from my mom led me to discover deep learning and set me on a path into AI/ML — the origin story of a data scientist.
