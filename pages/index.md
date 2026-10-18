@@ -2,6 +2,8 @@
 .. title: Data Scientist & ML Engineer
 .. hidetitle: true
 .. slug: index
+.. date: 2024-03-06 10:27:19+05:30
+.. updated: 2026-06-17 16:30:05-04:00
 .. tags: 
 .. category: 
 .. link: 

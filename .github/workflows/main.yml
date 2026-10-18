@@ -2,6 +2,9 @@ on:
   push:
     branches: main
 
+permissions:
+  contents: write
+
 jobs:
   nikola_build:
     runs-on: ubuntu-latest
@@ -17,8 +20,19 @@ jobs:
       run: pip install Pillow
     - name: Generate OG images
       run: python generate_og_images.py --update-meta
-    - name: Build and Deploy Nikola
-      uses: getnikola/nikola-action@v8
+    - name: Install Nikola
+      run: pip install "Nikola[extras]" ghp-import
+    - name: Fetch deployed site
+      run: git fetch origin ghpages:ghpages
+    - name: Build site
+      run: nikola build
+    - name: Patch sitemap timestamps
+      run: python patch_sitemaps.py
+    - name: Deploy to GitHub Pages
       env:
         GIT_COMMITTER_NAME: github-actions[bot]
         GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+      run: |
+        ghp-import -n -p -r origin -b ghpages \
+          -m "Nikola auto commit." -m "Source commit: $GITHUB_SHA" \
+          output
