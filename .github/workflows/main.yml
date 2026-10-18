@@ -30,6 +30,8 @@ jobs:
       run: git fetch origin ghpages:ghpages
     - name: Build site
       run: nikola build
+    - name: Generate llms.txt
+      run: python generate_llms_txt.py
     - name: Patch sitemap timestamps
       run: python patch_sitemaps.py
     - name: Deploy to GitHub Pages
